@@ -15,7 +15,7 @@ include netbt
 
 ```puppet
 class { netbt:
-  netbt_setting => 'enable'
+  netbt_setting => 'disabled'
 }
 ```
 
