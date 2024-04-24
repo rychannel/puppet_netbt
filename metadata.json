@@ -1,12 +1,22 @@
 {
-  "name": "velocity303-netbt",
-  "version": "0.0.1",
-  "author": "James Jones",
+  "name": "rychannel-netbt",
+  "version": "1.0.1",
+  "author": "Ryan Murphy",
   "summary": "This module modifies the netbiosoptions registry setting for all interfaces on a Windows system.",
   "license": "Apache-2.0",
-  "source": "https://github.com/velocity303/puppet_netbt.git",
-  "project_page": "https://github.com/velocity303/puppet_netbt",
-  "issues_url": "https://github.com/velocity303/puppet_netbt/issues",
+  "source": "https://github.com/rychannel/puppet_netbt.git",
+  "project_page": "https://github.com/rychannel/puppet_netbt",
+  "issues_url": "https://github.com/rychannel/puppet_netbt/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 2.3.0 < 10.0.0"
+    },
+    {
+      "name": "puppetlabs/registry",
+      "version_requirement": ">= 1.1.3 < 6.0.0"
+    }
+  ],
   "operatingsystem_support": [
     {
       "operatingsystem": "Windows",
@@ -17,31 +27,22 @@
         "Server 2008 R2",
         "Server 2012",
         "Server 2012 R2",
+        "Server 2016",
+        "Server 2019",
+        "Server 2022",
         "7",
-        "8"
+        "8",
         "10"
       ]
     }
   ],
   "requirements": [
     {
-      "name": "pe",
-      "version_requirement": ">= 2015.1.0 < 2015.4.0"
-    },
-    {
       "name": "puppet",
-      "version_requirement": ">= 4.0.0 < 5.0.0"
+      "version_requirement": ">= 4.0.0 < 9.0.0"
     }
   ],
-  "description": "This module modifies the netbiosoptions registry setting for all interfaces on a Windows system.",
-  "dependencies": [
-    {
-      "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 2.3.0"
-    },
-    {
-      "name": "puppetlabs/registry",
-      "version_requirement": ">= 1.1.3"
-    }
-  ]
+  "pdk-version": "2.7.1",
+  "template-url": "https://gitlab.woodmen.net/puppet-admins/wl_pdk_module_template#main",
+  "template-ref": "heads/main-0-g77b0e60"
 }

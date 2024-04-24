@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "puppet.puppet-vscode",
+    "Shopify.ruby-lsp",
+    "redhat.vscode-yaml"
+  ]
+}
