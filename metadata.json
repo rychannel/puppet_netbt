@@ -1,6 +1,6 @@
 {
   "name": "rychannel-netbt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Ryan Murphy",
   "summary": "This module modifies the netbiosoptions registry setting for all interfaces on a Windows system.",
   "license": "Apache-2.0",
