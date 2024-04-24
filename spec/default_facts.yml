@@ -1,0 +1,18 @@
+# Use default_module_facts.yml for module specific facts.
+#
+# Facts specified here will override the values provided by rspec-puppet-facts.
+---
+ipaddress: "172.16.254.254"
+ipaddress6: "FE80:0000:0000:0000:AAAA:AAAA:AAAA"
+is_pe: false
+macaddress: "AA:AA:AA:AA:AA:AA"
+hostname: prd-fak-as-1
+wl_app: fak
+wl_server_type: as
+wl_role: as
+wl_node_number: '1'
+wl_env: prd
+wl_env_four: prod
+wl_hard_disks: 'C:,D:'
+wl_description: 'Production Fake Application Server #1'
+
